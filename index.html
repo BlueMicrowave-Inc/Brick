@@ -1,2 +1,63 @@
-<DOCTYPE! html>
-<p>Bricks coming soon!</p>
+<!DOCTYPE html>
+
+<body style="background-color:#DA2C4F;">
+<style>
+.leftscroll {
+ height: 50px;	
+ overflow: hidden;
+ position: relative;
+ background: #DC143C;
+}
+.leftscroll b {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ transform:translateX(100%);
+ animation: leftscroll 10s linear infinite;
+}
+@keyframes leftscroll {
+ 0%   {
+ transform: translateX(100%); 		
+ }
+ 100% {
+ transform: translateX(-100%); 
+ }
+}
+img {
+    max-width: 100%;
+    height: auto
+    width: auto\9;
+}
+</style>
+
+<div class="leftscroll">
+<b style="color:#FF91A4;"><strong>Buy! Buy! Buy! Buy! Buy! Buy! Buy! Buy! Buy! Buy! Buy! Buy! Buy! Buy! Buy! Buy!</strong></b>
+</div>
+
+<div class="img">
+<img src="./Brick.png" alt="A brick.">
+</div>
+
+<style>
+a:link, a:visited {
+  background-color: #DC143C;
+  color: white;
+  padding: 20px 100px;
+  text-align: center;
+  text-decoration: none;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+a:hover, a:active {
+  background-color: #DC143C;
+}
+</style>
+
+<!-- Replace the <center> element with CSS PLEASE -->
+<center> 
+<b><a style="color:#FF91A4;" href="https://www.homedepot.com/p/Old-Mill-Brick-28-in-x-10-5-in-x-0-5-in-Brickwebb-Midtown-Thin-Brick-Sheets-Box-of-5-Sheets-BW-370058CS/322353938" target="_blank">Buy some bricks!</a></b>
+</center>
